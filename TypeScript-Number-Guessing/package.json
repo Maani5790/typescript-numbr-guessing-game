@@ -1,0 +1,33 @@
+{
+  "name": "ahmx-number-game",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmedShaykh/TypeScript-Number-Guessing-Game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AhmedShaykh/TypeScript-Number-Guessing-Game/issues"
+  },
+  "homepage": "https://github.com/AhmedShaykh/TypeScript-Number-Guessing-Game#readme",
+  "bin": {
+    "ahmx-number-game": "bin/index.js"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/chalk-animation": "^1.6.1",
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^18.11.10"
+  },
+  "dependencies": {
+    "chalk": "^5.1.2",
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.1.4"
+  }
+}
